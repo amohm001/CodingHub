@@ -1,26 +1,87 @@
+/* CSS files add styling rules to your content */
 
 
 body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background: 	#FFFFFF;
+}
+
+.search{
+  position: absolute;
+  top: 13%;
+  left: 32%;
+  height: 40px;
+  width: 500px;
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+.search-btn{
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px; 
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.search-txt{
+  
+  border: 3px solid #32e17c;
+  float: left;
+  padding: 0;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 450px;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  
 }
 
 .container{
   position: relative;
-  width: 1150px;
+  width: 1300px;
   height: 500px;
   margin: 240px auto;
   
     
 }
+.container .categ{
+  position: relative;
+  width:250px;
+  height: 100px;
+  background: #023;
+  float: left;
+  margin: 35px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 20px;
+  background: 	#D3D3D3;
+  color: #696969;
+  
+}
+.container .categ h3{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.9em;
+}
+h3{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 19px;
+}
+  
 .container .box
 {
   position: relative;
-  width:300px;
-  height: 100px;
+  width:250px;
+  height: 150px;
   background: #023;
-  float: right;
+  float: left;
   margin: 35px;
   box-sizing: border-box;
   overflow: hidden;
@@ -28,11 +89,10 @@ body {
   
 }
 .container .box .content {
-  positon: absolute;
-  top: 100px;
+  positon: relative;
+  top: 150px;
   height: 50px;
-  text-align: center;
-  padding: 35px;
+  padding: 0;
   box-sizing: border-box;
   transition: 0.5s;
 }
@@ -42,5 +102,10 @@ body {
   padding: 0;
   color: #fff;
   
-  
+}
+.container .box .Subject {
+  position: relative;
+  left: 20px;
+  top: 60px;
+  color: #ffd59a;
 }
