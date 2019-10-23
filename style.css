@@ -1,0 +1,117 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+/* CSS files add styling rules to your content */
+
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: 	#f6f6f6;
+}
+
+.search{
+  position: absolute;
+  top: 13%;
+  left: 32%;
+  height: 40px;
+  width: 500px;
+  border-radius: 50%;
+  padding: 0px;
+  
+  
+}
+.search-btn{
+ 
+  color: #e84118;
+  float: right;
+  width: 40px;
+  height: 40px; 
+  border-radius: 50%;
+  background: #2f3640;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.search-txt{
+  
+  border: 3px solid #545454;
+  float: left;
+  padding: 0;
+  font-size: 20px;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 450px;
+  border-radius: 50px;
+  font-family: "Times New Roman", Times, serif;
+  background: #f6f6f6;
+}
+
+.container{
+  position: relative;
+  width: 1300px;
+  height: 500px;
+  margin: 240px auto;
+  
+    
+}
+.container .categ{
+  position: relative;
+  width:200px;
+  height: 80px;
+  background: #a8a8a8;
+  float: left;
+  margin: 21px;
+  left: 30px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 20px;
+  background: 	#D3D3D3;
+  color: #2a2a2a;
+  
+}
+.container .categ h3{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.9em;
+  
+}
+.container .box h3{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.1em;
+}
+h3{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.7em;
+}
+
+.container .box
+{
+  position: relative;
+  width:250px;
+  height: 150px;
+  background: #023;
+  float: left;
+  margin: 35px;
+  box-sizing: border-box;
+  overflow: hidden;
+  border-radius: 10px;
+  
+}
+.container .box .content {
+
+  top: 190px;
+  height: 50px;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+
+
+.container .box .Subject {
+  position: relative;
+  left: 20px;
+  top: 60px;
+  color: #ffd59a;
+}
